@@ -7,8 +7,6 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-theme = "d3c3nt"
-
 title = "Jonathan Esperanza's website"
 description = "software engineer"
 
@@ -22,9 +20,11 @@ highlight_theme = "css"
 [extra]
 # Put all your custom variables here
 name = "Jonathan Esperanza"
+d3_icon = ""
 d3_nav = [
     { name = "Posts", path = "/posts" },
     { name = "Projects", path = "/projects" },
+    { name = "Resume", path = "/files/cv.pdf" },
 ]
 d3_author = "Jonathan Esperanza"
 links = [
