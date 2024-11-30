@@ -7,10 +7,30 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
+theme = "d3c3nt"
+
+title = "Jonathan Esperanza's website"
+description = "software engineer"
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = false
+highlight_code = true
+highlight_theme = "css"
+
 
 [extra]
 # Put all your custom variables here
+name = "Jonathan Esperanza"
+d3_nav = [
+    { name = "Posts", path = "/posts" },
+    { name = "Projects", path = "/projects" },
+]
+d3_author = "Jonathan Esperanza"
+links = [
+    { name = "Bluesky", url = "https://bsky.app/profile/jonathanesperanza.com", icon="bluesky" },
+    { name = "GitHub", url = "https://github.com/jon-esperanza", icon="github" },
+    { name = "LinkedIn", url = "https://www.linkedin.com/in/jonathanesperanza/", icon="linkedin" },
+]
+
+
