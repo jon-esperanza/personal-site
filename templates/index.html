@@ -59,18 +59,6 @@
     </div>
     <main>
       {% block content %}{% endblock content %}
-      <h2>Recent Bluesky posts</h2>
-      {% set data = load_data(url="https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=jonathanesperanza.com&limit=5&filter=posts_no_replies", format="json") %}
-      <ul class="date-list">
-      {% for post in data["feed"] %}
-        <li>{{ post.post.record.createdAt | date(format="%d %b %Y") }}
-          <a class="list-post-title" href="https://bsky.app/profile/jonathanesperanza.com/post/{{ post.post.uri | safe | trim_start_matches(pat='at://did:plc:vujiiabnnmmkaezefjdwsnqm/app.bsky.feed.post/') }}">
-          {{ post.post.record.text | safe }}
-        </a>
-        </li>
-      {% endfor %}
-      </ul>
-      <a href="https://bsky.app/profile/jonathanesperanza.com">All Bluesky posts</a>
     </main>
     <script src="/js/main.js"></script>
   </body>
