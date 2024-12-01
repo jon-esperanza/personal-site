@@ -2,7 +2,7 @@
 {% block content %}
       <ul class="date-list">
       {% for page in section.pages %}
-        <li><a href="{{ page.permalink | safe }}">{{ page.title | safe }}</a> {{ page.date | date(format="%B %d, %Y") }}</li>
+        <li>{{ page.date | date(format="%d %b %Y") }}<a class="list-post-title" href="{{ page.permalink | safe }}">{{ page.title | safe }}</a></li>
       {% endfor %}
       </ul>
 {% endblock content %}

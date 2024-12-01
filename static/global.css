@@ -4,7 +4,7 @@
   --secondary-color: #f7f4fb;
   --tertiary-color: #5c4494;
   --text-color: #0d0917;
-  --link-color: #65737e;
+  --link-color: #70657e;
   --zcode-background-color: #FBFAF4;
   --zcode-variable-color: #594f66;
   --zcode-comment-color: #b0a7ba;
@@ -35,10 +35,10 @@
   --secondary-color: #19133b;
   --tertiary-color: #5c4494;
   --text-color: #FBFAF4;
-  --link-color: #65737e;
+  --link-color: #8f7da6;
   --zcode-background-color: #0d0917;
   --zcode-variable-color: #c3c0ce;
-  --zcode-comment-color: #65737e;
+  --zcode-comment-color: #8f7da6;
   --zcode-string-color: #a3be8c;
   --zcode-keyword-operator-color: #c3c0ce;
   --zcode-keyword-color: #9069be;
@@ -329,18 +329,21 @@ header > a {
 /* Posts and Projects */
 .date-list {
   padding: 0;
+  margin-bottom: 0;
 }
 
 .date-list > li {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  line-height: 145%;
+  line-height: 105%;
   padding: 0 0 1rem 0;
+  gap: 1em;
 }
 
-.date-list > li > a {
-  flex-basis: 50%;
+.list-post-title {
+  width: 20em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Error */

@@ -4,9 +4,13 @@ template = "section.html"
 +++
 
 # Hello!
-I'm Jonathan Esperanza, a software engineer working on scalable data and machine learning systems.
+I'm Jonathan Esperanza, a software engineer.
+* I am currently at Credit Karma, working on the Recommendation Platform.
 * I spend time reading articles and books on the topics of distributed systems, machine learning, and data. I've recently started [posting notes on Bluesky](https://bsky.app/profile/jonathanesperanza.com)!
 * I have worked on open source projects including [Apache Beam](https://beam.apache.org/) and [Trino](https://trino.io/).
+
+## Hobbies
+Usually playing soccer or video games, watching movies, building a side project, or spending time with friends and family.
 
 ## Work
 Experienced in recommendation systems and large-scale data processing. 
@@ -23,7 +27,7 @@ Environment:
 
 ### Job history
 #### 2022 - Present
-Intuit Credit Karma
+Credit Karma
 
 #### 2021 - 2022
 TapTab
