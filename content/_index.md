@@ -5,7 +5,7 @@ template = "section.html"
 
 # Hello!
 I'm Jonathan Esperanza, a software engineer.
-* I am currently at Credit Karma, working on the Recommendation Platform.
+* I am currently at Credit Karma, working on the Recommendations Platform.
 * I spend time reading articles and books on the topics of distributed systems, machine learning, and data. I've recently started [posting notes on Bluesky](https://bsky.app/profile/jonathanesperanza.com)!
 * I have worked on open source projects including [Apache Beam](https://beam.apache.org/) and [Trino](https://trino.io/).
 
