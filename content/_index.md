@@ -9,7 +9,7 @@ I'm Jonathan Esperanza, a software engineer.
 * I spend time reading articles and books on the topics of distributed systems, machine learning, and data. I've recently started [posting notes on Bluesky](https://bsky.app/profile/jonathanesperanza.com)!
 * I have worked on open source projects including [Apache Beam](https://beam.apache.org/) and [Trino](https://trino.io/).
 
-## Hobbies
+## Personal life
 Usually playing soccer or video games, watching movies, building a side project, or spending time with friends and family.
 
 ## Work
