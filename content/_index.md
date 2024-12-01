@@ -20,21 +20,5 @@ Day-to-day work:
 - Optimizing infrastructure cost
 - Enhancing system performance
 
-Environment:
-- Cross-functional collaboration with engineering, data science, and product teams
-- Fast-paced
-- Teams of predominantly senior+ engineers
-
-### Job history
-#### 2022 - Present
-Credit Karma
-
-#### 2021 - 2022
-TapTab
-
-#### 2021
-Brighthouse Financial
-
-
 ## Recent Bluesky posts
 {{ bluesky() }}
